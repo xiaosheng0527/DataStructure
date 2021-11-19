@@ -7,6 +7,8 @@ import java.util.Arrays;
  * @date 2021/11/19 12:20
  *
  * // 此处我是分析了归并算法，自己模拟一下
+ *
+ * // 其实主要是自己不理解 分治算法，了解了这个做起来就会好很多了
  */
 public class MergeSort2 {
 
