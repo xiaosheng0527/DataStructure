@@ -51,6 +51,7 @@ public class HeapSort3 {
         for(int k = 2 * begin + 1 ; k < len ; k = 2 * k + 1) {
 
             if(k + 1 < len && arr[k] < arr[k + 1]){
+
                 k++ ;
             }
 

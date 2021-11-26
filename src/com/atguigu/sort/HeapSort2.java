@@ -130,6 +130,7 @@ public class HeapSort2 {
             temp = arr[j] ;
             arr[j] = arr[0] ;
             arr[0] = temp ;
+
             // 上面已经将第一个大顶堆排序好了，此时移动到末尾，然后就需要重复此步骤再排 "次大顶堆"，
             // 而这里有个比较高效的算法，就是此时并没有又将 begin 指向 倒数第二个位置，可能第一次排序，已经差不多排序成功了，
             // 只是差了一点，那么排第二个顶堆的时候，其实可以省省力，直接从最高的顶堆出发，如果运气好的话，可能速度还更快。
@@ -138,7 +139,6 @@ public class HeapSort2 {
         }
 
         System.out.println("数组=" + Arrays.toString(arr));
-
 
     }
 
